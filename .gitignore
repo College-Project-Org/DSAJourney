@@ -1,0 +1,27 @@
+# virtual environment gitignore
+env
+.env
+.venv
+venv
+
+.cph
+.mypy_cache
+__pycache__
+.pytest_cache
+.pyre
+
+# IDE gitignore
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# OS gitignore
+.DS_Store
+Thumbs.db   
+
+#Python gitignore
+*.pyc
+*.pyo
+*.pyd
+__pycache__/    
