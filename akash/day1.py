@@ -50,7 +50,8 @@ sorted_list = sorted(my_list)  # sorted function returns a new sorted list
 # sort method sorts the list in place
 print("New sorted list variable", sorted_list)  # sorted list
 my_list.sort()
-print("Original list after inplace sort", my_list)  # original list remains unchanged
+# original list remains unchanged
+print("Original list after inplace sort", my_list)
 my_list2 = ["apple", "banana", "cherry", 1, 2, 3]
 print(my_list)
 print(my_list2)
