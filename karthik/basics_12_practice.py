@@ -1,5 +1,3 @@
-import math
-
 # Conditional statements.
 # 1st Question - Write a program to check **leap year**.
 
@@ -19,6 +17,7 @@ else:
 
 
 # 2nd Question -Check if a number is **prime**.
+import math
 
 
 def is_prime(num):
