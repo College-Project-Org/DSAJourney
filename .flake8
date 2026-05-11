@@ -1,0 +1,13 @@
+[flake8]
+max-line-length = 110
+exclude =
+    env,
+    .git,
+    __pycache__,
+    .mypy_cache,
+    .ruff_cache
+per-file-ignores =
+    # JSON content saved with wrong extension — not Python
+    akash/venkatesh_project.json.py: F821, E501, W292
+    # Optional-AI logging style uses f-strings without placeholders
+    akash/project_context_extractor.py: F541, F841

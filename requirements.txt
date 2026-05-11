@@ -1,0 +1,4 @@
+# Optional: AI summarization support for akash/project_context_extractor.py
+# Install only if you want AI-powered summaries (requires ~2 GB download)
+# transformers
+# torch
